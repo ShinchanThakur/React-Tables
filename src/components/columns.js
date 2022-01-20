@@ -2,7 +2,7 @@ export const COLUMNS = [
     {
         Header: 'Id',
         Footer: 'Id',
-        accessor: 'id'
+        accessor: 'id'  //This is the column name in the data (json or csv)
     },
     {
         Header: 'First Name',

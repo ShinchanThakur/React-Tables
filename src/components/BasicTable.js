@@ -9,11 +9,11 @@ export const BasicTable = () => {
     const columns = useMemo(() => COLUMNS, [])
     // const columns = useMemo(() => GROUPED_COLUMNS, [])
     const data = useMemo(() => MOCK_DATA, [])   //UseMemo hook prevents recreation of data after every render
-                                                //If we wont use this, then react table will think that new data is received and on every render, it will do a lot of calculations
+                                                //If we won't use this, then react table will think that new data is received and on every render, it will do a lot of calculations
 
     const tableInstance = useTable({  //This is a hook, It is basically a function
         columns,    //This is columns:columns
-                    //ES6 shorthand syntax allows us to write only columns instead of this
+                    //ES6 shorthand syntax allows us to write only columns instead of columns:columns
         data
     }) //It recommends memoising data before feeding it to the hook
     
@@ -53,7 +53,7 @@ export const BasicTable = () => {
                 {footerGroups.map((footerGroup) => (
                     <tr {...footerGroup.getFooterGroupProps()}>
                         {footerGroup.headers.map((column) => (
-                            <td {...column.getFooterGroupProps}>{column.render('Footer')}</td>
+                            <td {...column.getFooterProps()}>{column.render('Footer')}</td>
                         ))}
                     </tr>
                 ))}

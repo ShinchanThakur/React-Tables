@@ -3,7 +3,7 @@
 
 ## Techs To Learn
 > I will be learning these techs in this project
-<img alt="Techs To Learn" src="images/techsToLearn.png">
+<img width="555" alt="Techs To Learn" src="images/techsToLearn.png">
 
 ## Mock Data
 > A mock data is taken for our use case from mockaroo.com with following settings
