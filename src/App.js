@@ -1,11 +1,12 @@
 import './App.css';
+import { FilteringTable } from './components/FilteringTable';
 // import { BasicTable } from './components/BasicTable';
-import { SortingTable } from './components/SortingTable';
+// import { SortingTable } from './components/SortingTable';
 
 function App() {
   return (
     <div className="App">
-      <SortingTable/> 
+      <FilteringTable/> 
     </div>
   );
 }

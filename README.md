@@ -24,7 +24,13 @@
 <img width="555" alt="Grouping Headers" src="images/groupingHeaders.png">
 
 ## 4. Adding sorting feature to each column
+> Data is sorted by date of birth
 <img width="555" alt="Steps To Make Table" src="images/sortingOnEachColumn.png">
 
 ## 5. Formatting Columns
+> Date column is formatted in dd/MM/yyyy format
 <img width="555" alt="Formatting Date Column" src="images/formattingDateColumn.png">
+
+## 6. Filtering
+> Global Filtering
+<img width="555" alt="Global Filtering" src="images/globalFiltering.png">
