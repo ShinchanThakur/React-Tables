@@ -1,3 +1,5 @@
+import {format} from 'date-fns'
+
 export const COLUMNS = [
     {
         Header: 'Id',
@@ -17,7 +19,14 @@ export const COLUMNS = [
     {
         Header: 'Date of Birth',
         Footer: 'Date of Birth',
-        accessor: 'date_of_birth'
+        accessor: 'date_of_birth',
+        Cell:       //Cell property controls what is rendered in the UI
+                ({ value }) => { return format(
+                    new Date(value),    //value of date is stored in string format in the json file,
+                                        //Therefore we convert it to date object first
+
+                    'dd/MM/yyyy')       //This tells that the format to be shown in the table is dd/MM/yyyy
+                }
     },
     {
         Header: 'Country',

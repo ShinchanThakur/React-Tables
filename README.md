@@ -25,3 +25,6 @@
 
 ## 4. Adding sorting feature to each column
 <img width="555" alt="Steps To Make Table" src="images/sortingOnEachColumn.png">
+
+## 5. Formatting Columns
+<img width="555" alt="Formatting Date Column" src="images/formattingDateColumn.png">
