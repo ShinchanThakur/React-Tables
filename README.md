@@ -31,6 +31,8 @@
 > Date column is formatted in dd/MM/yyyy format
 <img width="555" alt="Formatting Date Column" src="images/formattingDateColumn.png">
 
-## 6. Filtering
+## 6. Filtering (Client Side)
 > Global Filtering
 <img width="555" alt="Global Filtering" src="images/globalFiltering.png">
+> Column Filtering
+<img width="555" alt="Column Filtering" src="images/columnFiltering.png">
