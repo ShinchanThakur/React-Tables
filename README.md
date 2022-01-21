@@ -47,3 +47,6 @@
 > I learnt the following things in pagination
 <img alt="Learnt in Pagination" src="images/learntInPagination.png">
 <img width="555" alt="Pagination" src="images/pagination.png">
+
+## 8. Selecting Rows
+<img width="555" alt="Selecting Rows" src="images/selectingRows.png">
