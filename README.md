@@ -43,8 +43,7 @@
 2. Set some common properties for all columns using defaultColumn property in useTable hook
 3. Using asyncDebounce hook to filter data to improve performance
 
-## 7. Pagination
+## 7. Pagination (Client Side)
 > I learnt the following things in pagination
-<img alt="Column Filtering" src="images/learntInPagination.png">
-
->
+<img alt="Learnt in Pagination" src="images/learntInPagination.png">
+<img width="555" alt="Pagination" src="images/pagination.png">
