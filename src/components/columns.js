@@ -6,19 +6,17 @@ export const COLUMNS = [
         Header: 'Id',
         Footer: 'Id',
         accessor: 'id',  //This is the column name in the data (json or csv)
-        Filter: ColumnFilter
+        disableFilters: true   //Use this if you want to disable filter in any column
     },
     {
         Header: 'First Name',
         Footer: 'First Name',
-        accessor: 'first_name',
-        Filter: ColumnFilter
+        accessor: 'first_name'
     },
     {
         Header: 'Last Name',
         Footer: 'Last Name',
-        accessor: 'last_name',
-        Filter: ColumnFilter
+        accessor: 'last_name'
     },
     {
         Header: 'Date of Birth',
@@ -30,20 +28,17 @@ export const COLUMNS = [
                                         //Therefore we convert it to date object first
 
                     'dd/MM/yyyy')       //This tells that the format to be shown in the table is dd/MM/yyyy
-                },
-        Filter: ColumnFilter
+                }
     },
     {
         Header: 'Country',
         Footer: 'Country',
-        accessor: 'country',
-        Filter: ColumnFilter
+        accessor: 'country'
     },
     {
         Header: 'Phone',
         Footer: 'Phone',
-        accessor: 'phone',
-        Filter: ColumnFilter
+        accessor: 'phone'
     }
 ]
 

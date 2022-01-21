@@ -34,5 +34,11 @@
 ## 6. Filtering (Client Side)
 > Global Filtering
 <img width="555" alt="Global Filtering" src="images/globalFiltering.png">
+
 > Column Filtering
 <img width="555" alt="Column Filtering" src="images/columnFiltering.png">
+
+> Some perfomance and code improvements
+1. Disable Filters in some columns
+2. Set some common properties for all columns using defaultColumn property in useTable hook
+3. Using asyncDebounce hook to filter data to improve performance
