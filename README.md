@@ -42,3 +42,9 @@
 1. Disable Filters in some columns
 2. Set some common properties for all columns using defaultColumn property in useTable hook
 3. Using asyncDebounce hook to filter data to improve performance
+
+## 7. Pagination
+> I learnt the following things in pagination
+<img alt="Column Filtering" src="images/learntInPagination.png">
+
+>
