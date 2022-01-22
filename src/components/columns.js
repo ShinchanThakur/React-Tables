@@ -5,18 +5,21 @@ export const COLUMNS = [
         Header: 'Id',
         Footer: 'Id',
         accessor: 'id',  //This is the column name in the data (json or csv)
-        disableFilters: true   //Use this if you want to disable filter in any column
+        disableFilters: true,   //Use this if you want to disable filter in any column
+        sticky: 'left'
     },
     {
         Header: 'First Name',
         Footer: 'First Name',
-        accessor: 'first_name'  //We can explicitly define an id for each column
+        accessor: 'first_name',  //We can explicitly define an id for each column
                                 //But if we dont do that, then accessor is also the id for each column
+        sticky: 'left'
     },
     {
         Header: 'Last Name',
         Footer: 'Last Name',
-        accessor: 'last_name'
+        accessor: 'last_name',
+        sticky: 'left'
     },
     {
         Header: 'Date of Birth',
@@ -39,6 +42,16 @@ export const COLUMNS = [
         Header: 'Phone',
         Footer: 'Phone',
         accessor: 'phone'
+    },
+    {
+        Header: 'Email',
+        Footer: 'Email',
+        accessor: 'email'
+    },
+    {
+        Header: 'Age',
+        Footer: 'Age',
+        accessor: 'age'
     }
 ]
 

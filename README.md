@@ -55,4 +55,18 @@
 
 ## 10. Column Hiding
 > Columns can be made visible or hidden according to the user's choice
-<img width="555" alt="Column Hiding" src="images/columnHiding.png>
+<img width="555" alt="Column Hiding" src="images/columnHiding.png">
+
+## 11. Sticky Columns
+> The first 3 columns will always remain on screen when you scroll horizontally
+
+> This will help the user more when there are a lot of columns
+<img width="555" alt="Sticky Columns" src="images/stickyColumns">
+
+## Further Reading
+<img width="555" alt="Further Reading" src="images/furtherReading">
+
+# Playlist Link
+> I have learnt all this from [React Table Tutorial Playlist](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgWTSrDiwmUsl4ZvipOw9Cz) by [Codevolution](https://www.youtube.com/c/Codevolution)
+
+> I am really grateful for this playlist. Check it out if you want to learn react tables.
