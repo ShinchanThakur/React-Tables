@@ -57,12 +57,12 @@
 > The first 3 columns will always remain on screen when you scroll horizontally
 
 > This will help the user more when there are a lot of columns
-<img width="555" alt="Sticky Columns" src="images/stickyColumns">
+<img width="555" alt="Sticky Columns" src="images/stickyColumns.png">
 
 > This has been learnt from [react-table-sticky](https://github.com/GuillaumeJasmin/react-table-sticky) library.
 
 ## Further Reading
-<img width="555" alt="Further Reading" src="images/furtherReading">
+<img width="555" alt="Further Reading" src="images/furtherReading.png">
 
 # Playlist Link
 > I have learnt all this from [React Table Tutorial Playlist](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgWTSrDiwmUsl4ZvipOw9Cz) by [Codevolution](https://www.youtube.com/c/Codevolution)
