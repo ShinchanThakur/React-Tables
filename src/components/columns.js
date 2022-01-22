@@ -11,7 +11,8 @@ export const COLUMNS = [
     {
         Header: 'First Name',
         Footer: 'First Name',
-        accessor: 'first_name'
+        accessor: 'first_name'  //We can explicitly define an id for each column
+                                //But if we dont do that, then accessor is also the id for each column
     },
     {
         Header: 'Last Name',

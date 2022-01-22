@@ -50,3 +50,5 @@
 
 ## 8. Selecting Rows
 <img width="555" alt="Selecting Rows" src="images/selectingRows.png">
+
+## 9. Change Column Order
