@@ -52,3 +52,7 @@
 <img width="555" alt="Selecting Rows" src="images/selectingRows.png">
 
 ## 9. Change Column Order
+
+## 10. Column Hiding
+> Columns can be made visible or hidden according to the user's choice
+<img width="555" alt="Column Hiding" src="images/columnHiding.png>
