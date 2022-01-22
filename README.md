@@ -1,12 +1,8 @@
 # Learning React Tables
 > I have made this project to learn about react tables
 
-## Techs To Learn
-> I will be learning these techs in this project
-<img width="555" alt="Techs To Learn" src="images/techsToLearn.png">
-
 ## Mock Data
-> A mock data is taken for our use case from mockaroo.com with following settings
+> A mock data is taken for our use case from [mockaroo.com](https://www.mockaroo.com/) with following settings
 <img width="555" alt="Mockaroo" src="images/mockaroo.png">
 
 # THINGS LEARNT
@@ -62,6 +58,8 @@
 
 > This will help the user more when there are a lot of columns
 <img width="555" alt="Sticky Columns" src="images/stickyColumns">
+
+> This has been learnt from [react-table-sticky](https://github.com/GuillaumeJasmin/react-table-sticky) library.
 
 ## Further Reading
 <img width="555" alt="Further Reading" src="images/furtherReading">
